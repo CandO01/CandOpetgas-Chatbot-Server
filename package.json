@@ -1,0 +1,17 @@
+{
+  "name": "openai-server",
+  "version": "1.0.0",
+  "description": "'an openai server for informative purpose'",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "CandOpetgasdev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.16.0"
+  }
+}

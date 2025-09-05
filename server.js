@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
 
         // --- REAL OPENAI SDK CALL ---
         const completion = await openai.chat.completions.create({
-          model: "gpt-3.5-turbo",
+          model: "gpt-4o-min",
           messages: [{ role: "user", content: message }],
         });
 
